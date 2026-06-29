@@ -23,6 +23,7 @@ public class UserService
 
     public GetUserDto findById(Long id)
     {
+        System.out.println();
         if (Objects.isNull(id))
         {
             throw new AppException("USER ID IS NULL");
