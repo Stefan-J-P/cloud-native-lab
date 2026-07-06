@@ -1,0 +1,3 @@
+com/connecthub/notification/ConnectHubNotificationServiceApplication.class
+com/connecthub/notification/controller/HealthController.class
+com/connecthub/notification/exception/GlobalExceptionHandler.class

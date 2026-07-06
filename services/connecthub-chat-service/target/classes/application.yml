@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: connecthub-chat-service
+server:
+  port: 8083
+logging:
+  level:
+    root: INFO
+    com.connecthub.chat: INFO
+    org.springframework: WARN
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
