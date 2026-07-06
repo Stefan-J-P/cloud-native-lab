@@ -1,0 +1,3 @@
+com/connecthub/complaint/ConnectHubComplaintServiceApplication.class
+com/connecthub/complaint/controller/HealthController.class
+com/connecthub/complaint/exception/GlobalExceptionHandler.class
