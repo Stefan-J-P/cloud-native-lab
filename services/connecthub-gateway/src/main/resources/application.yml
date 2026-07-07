@@ -2,7 +2,7 @@ spring:
   application:
     name: connecthub-gateway
 server:
-  port: 8080
+  port: 18080
 logging:
   level:
     root: INFO

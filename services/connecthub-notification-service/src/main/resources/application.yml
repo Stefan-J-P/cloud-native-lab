@@ -2,7 +2,7 @@ spring:
   application:
     name: connecthub-notification-service
 server:
-  port: 8084
+  port: 18084
 logging:
   level:
     root: INFO

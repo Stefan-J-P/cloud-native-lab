@@ -2,7 +2,7 @@ spring:
   application:
     name: connecthub-user-service
 server:
-  port: 8082
+  port: 18082
 logging:
   level:
     root: INFO
